@@ -1,0 +1,54 @@
+[
+  {
+    " id": 1,
+    "name": "Home Team Jersey",
+    "team": "Team A",
+    "price": 49.99,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Red", "White"],
+    "material": "Cotton",
+    "images": {
+      "one": "https://i.ibb.co/gWskQFK/1.jpg",
+      "two": "https://i.ibb.co/tzpnrSw/2.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Away Team Jersey",
+    "team": "Team B",
+    "price": 54.99,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Blue", "Yellow"],
+    "material": "Cotton",
+    "images": {
+      "one": "https://i.ibb.co/pb0mLg1/3.jpg",
+      "two": "https://i.ibb.co/XXzypVD/4.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Third Kit Jersey",
+    "team": "Team C",
+    "price": 59.99,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black", "Green"],
+    "material": "Cotton",
+    "images": {
+      "one": "https://i.ibb.co/t8JCBxL/5.jpg",
+      "two": "https://i.ibb.co/MfTsqwG/6.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "name": "National Team Jersey",
+    "team": "National Team X",
+    "price": 64.99,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Yellow", "Blue", "Red"],
+    "material": "Cotton",
+    "images": {
+      "one": "https://i.ibb.co/pyqtyDJ/7.jpg",
+      "two": "https://i.ibb.co/nQT01xJ/8.jpg"
+    }
+  }
+]

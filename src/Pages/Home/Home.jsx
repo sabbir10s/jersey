@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Data } from "../../../public/Data";
+import ProductCard from "../../Components/Products/ProductCard";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -13,20 +14,9 @@ const Home = () => {
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20">
-        {Data.map(({ id, name, images }) => {
-          return (
-            <div key={id}>
-              <div className="max-w-[300px] h-[300px]">
-                <img
-                  className="w-full h-full object-cover"
-                  src={images.one}
-                  alt=""
-                />
-              </div>
-              <h5>{name}</h5>
-            </div>
-          );
-        })}
+        {Data.map((product) => (
+          <ProductCard key={product._id} product={product} />
+        ))}
       </div>
     </div>
   );
