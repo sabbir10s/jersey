@@ -1,18 +1,5 @@
 [
   {
-    " id": 1,
-    "name": "Home Team Jersey",
-    "team": "Team A",
-    "price": 49.99,
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Red", "White"],
-    "material": "Cotton",
-    "images": {
-      "one": "https://i.ibb.co/gWskQFK/1.jpg",
-      "two": "https://i.ibb.co/tzpnrSw/2.jpg"
-    }
-  },
-  {
     "id": 2,
     "name": "Away Team Jersey",
     "team": "Team B",

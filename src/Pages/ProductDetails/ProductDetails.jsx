@@ -32,8 +32,8 @@ const ProductDetails = () => {
   return (
     <div className=" container mx-auto py-4">
       <div className="grid md:grid-cols-2 gap-20">
-        <div>
-          <img src={images.two} alt="" />
+        <div className="w-[300px] h-[300px]">
+          <img className="w-full object-fill" src={images.two} alt="" />
         </div>
         <div>
           <h2>{name}</h2>
