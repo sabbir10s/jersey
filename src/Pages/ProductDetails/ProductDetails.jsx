@@ -29,24 +29,29 @@ const ProductDetails = () => {
   const singleProduct = products.find(
     (product) => product._id === parseInt(productId)
   );
-  console.log(singleProduct, "All product");
   const { name, images, material, price, details } = singleProduct;
-  console.log(singleProduct, "single product");
+  const storedCartInfoString = localStorage.getItem("jersey");
+  const storedCartInfo = JSON.parse(storedCartInfoString);
+  console.log(storedCartInfo);
   return (
     <div className=" container mx-auto py-4">
       <div className="grid md:grid-cols-2 gap-20">
         <div className="relative">
-          <div className="absolute top-48 left-6 w-56 overflow-hidden">
+          <div className="absolute top-48 left-6 border border-primary w-56 text-center">
             <h3 className=" uppercase text-[40px] text-white text-center w-full ">
               {jerseyName}
             </h3>
           </div>
-          <div className="absolute top-36 right-10 w-52">
+          <div className="absolute top-36 right-10 border border-primary w-52">
             <h3 className=" uppercase text-[80px] text-white text-center ">
               {jerseyNumber}
             </h3>
           </div>
-          <img className="w-full object-fill" src={images.two} alt="" />
+          <img
+            className="w-full object-fill"
+            src={storedCartInfo ? storedCartInfo.image : images.two}
+            alt=""
+          />
         </div>
         <div>
           <div className=" space-y-2">

@@ -3,13 +3,30 @@ import { useState } from "react";
 import { FaCheck } from "react-icons/fa6";
 
 const AddToCard = ({ product }) => {
-  const { sizes, colors } = product;
-  const [color, setColor] = useState(colors[0]);
+  const { sizes, colors, images } = product;
+  const [color, setColor] = useState(images[0]);
   const [size, setSize] = useState(sizes[0]);
-
+  console.log(color);
+  const handleProductColor = () => {
+    // const cartInfo = {
+    //   size: size,
+    //   color: color,
+    //   product: product,
+    //   image: images.three,
+    // };
+    localStorage.setItem("jersey", JSON.stringify({ image: color }));
+    alert(`Data saved!`);
+  };
   const handleAddToCart = () => {
-    const cartInfo = { size, color, product };
-    console.log(cartInfo);
+    const cartInfo = {
+      size: size,
+      color: color,
+      product: product,
+      image: images.three,
+    };
+    const cartInfoString = JSON.stringify(cartInfo);
+    localStorage.setItem("jersey", cartInfoString);
+    alert(`Data saved! ${cartInfo}`);
   };
 
   return (
