@@ -1,6 +1,6 @@
 [
   {
-    "id": 2,
+    "_id": 2,
     "name": "Away Team Jersey",
     "team": "Team B",
     "price": 54.99,
@@ -10,10 +10,11 @@
     "images": {
       "one": "https://i.ibb.co/pb0mLg1/3.jpg",
       "two": "https://i.ibb.co/njGyJcg/4.png"
-    }
+    },
+    "details": "This is the away team jersey for Team B. Made from high-quality cotton material."
   },
   {
-    "id": 3,
+    "_id": 3,
     "name": "Third Kit Jersey",
     "team": "Team C",
     "price": 59.99,
@@ -23,10 +24,11 @@
     "images": {
       "one": "https://i.ibb.co/t8JCBxL/5.jpg",
       "two": "https://i.ibb.co/njGyJcg/4.png"
-    }
+    },
+    "details": "Introducing the third kit jersey for Team C. Stylish black and green design."
   },
   {
-    "id": 4,
+    "_id": 4,
     "name": "National Team Jersey",
     "team": "National Team X",
     "price": 64.99,
@@ -36,6 +38,7 @@
     "images": {
       "one": "https://i.ibb.co/pyqtyDJ/7.jpg",
       "two": "https://i.ibb.co/njGyJcg/4.png"
-    }
+    },
+    "details": "Show your support for National Team X with this vibrant yellow, blue, and red jersey."
   }
 ]

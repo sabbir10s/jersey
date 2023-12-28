@@ -28,10 +28,6 @@ const Home = () => {
   console.log(products);
   return (
     <div className="container mx-auto">
-      <h2 className="text-xl lg:text-3xl text-primary font-semibold text-center py-4">
-        All Of our Jerseys
-      </h2>
-
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20">
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
