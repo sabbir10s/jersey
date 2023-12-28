@@ -3,13 +3,14 @@
     "_id": 2,
     "name": "Away Team Jersey",
     "team": "Team B",
-    "price": 54.99,
+    "price": 499,
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["Blue", "Yellow"],
     "material": "Cotton",
     "images": {
       "one": "https://i.ibb.co/pb0mLg1/3.jpg",
-      "two": "https://i.ibb.co/njGyJcg/4.png"
+      "two": "https://i.ibb.co/njGyJcg/4.png",
+      "three": "https://i.ibb.co/Jdm0f83/5.png"
     },
     "details": {
       "description": "The Away Team Jersey for Team B is perfect for fans who want to represent their favorite team. With its distinctive blue and yellow colors, this jersey is not just a piece of sportswear but a symbol of team pride and unity.",
@@ -26,13 +27,14 @@
     "_id": 3,
     "name": "Third Kit Jersey",
     "team": "Team C",
-    "price": 59.99,
+    "price": 499,
     "sizes": ["S", "M", "L", "XL"],
     "colors": ["Black", "Green"],
     "material": "Cotton",
     "images": {
       "one": "https://i.ibb.co/t8JCBxL/5.jpg",
-      "two": "https://i.ibb.co/njGyJcg/4.png"
+      "two": "https://i.ibb.co/njGyJcg/4.png",
+      "three": "https://i.ibb.co/Jdm0f83/5.png"
     },
     "details": {
       "description": "The Third Kit Jersey for Team C is a stylish and modern choice for football enthusiasts. Featuring a sleek black and green design, this jersey combines fashion and sportswear seamlessly. Whether you're on the field or cheering from the sidelines, this jersey makes a bold statement.",
@@ -49,13 +51,14 @@
     "_id": 4,
     "name": "National Team Jersey",
     "team": "National Team X",
-    "price": 64.99,
+    "price": 499,
     "sizes": ["S", "M", "L", "XL"],
-    "colors": ["Yellow", "Blue", "Red"],
+    "colors": ["Yellow", "Blue"],
     "material": "Cotton",
     "images": {
       "one": "https://i.ibb.co/pyqtyDJ/7.jpg",
-      "two": "https://i.ibb.co/njGyJcg/4.png"
+      "two": "https://i.ibb.co/njGyJcg/4.png",
+      "three": "https://i.ibb.co/Jdm0f83/5.png"
     },
     "details": {
       "description": "Support National Team X with this vibrant jersey showcasing the team's iconic colors. The eye-catching yellow, blue, and red color combination ensures you stand out in the crowd. Made from breathable cotton fabric, this official jersey is a must-have for every devoted fan.",
